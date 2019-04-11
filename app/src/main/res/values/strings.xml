@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Teclingo</string>
+    <string name="title_activity_main">Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">Editar perfil</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_label">Teclingo</string>
+    <string name="preencha_todos_os_campos_para_efetuar_o_cadastro">Preencha todos os campos para efetuar o cadastro</string>
+    <string name="nome">Nome</string>
+    <string name="apelido">Apelido</string>
+    <string name="aniversario">Aniversário</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="confirmar_senha">Confirmar senha</string>
+    <string name="feminino">Feminino</string>
+    <string name="masculino">Masculino</string>
+    <string name="enviar">ENVIAR</string>
+    <string name="esqueceu_sua_senha">Esqueceu sua senha?</string>
+    <string name="crie_um_baralho_novo">Crie um baralho novo!</string>
+    <string name="t_tulo_incr_vel">Título incrível</string>
+    <string name="um_pouquinho_sobre_ele">Um pouquinho sobre ele...</string>
+    <string name="manda_ver">MANDA VER</string>
+    <string name="cartas">Cartas</string>
+    <string name="categoria">Categoria: </string>
+    <string name="recuperar_conta">recuperar conta</string>
+    <string name="enviar_comentario">Enviar feedback</string>
+    <string name="email_usado_no_cadastro">Email usado no cadastro</string>
+    <string name="tente_adivinhar_a_resposta">Tente adivinhar a resposta...</string>
+    <string name="verso">Verso</string>
+    <string name="frente">Frente</string>
+    <string name="cadastre_aqui_as_cartas_para_o_baralho">Cadastre aqui as cartas para o baralho!</string>
+    <string name="por">Por </string>
+
+    <string-array name="categorias">
+        <item>Física</item>
+        <item>Química</item>
+        <item>Matemática</item>
+        <item>História</item>
+        <item>Línguas</item>
+    </string-array>
+</resources>

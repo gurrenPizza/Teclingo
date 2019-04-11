@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1021836694284",
+    "firebase_url": "https://teclingo.firebaseio.com",
+    "project_id": "teclingo",
+    "storage_bucket": "teclingo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021836694284:android:f8a667255434c198",
+        "android_client_info": {
+          "package_name": "com.ifrj.pibic.teclingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021836694284-u86pp2c2vs1vo1t2cmv6dsp5o8oghrpd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ifrj.pibic.teclingo",
+            "certificate_hash": "5b4a9d416c6a8bb7fb18ee4a84845cb4f55984fa"
+          }
+        },
+        {
+          "client_id": "1021836694284-jkfpqomqr0ucfq3ne12bs7o2kvnm37p4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAls_kN-mEFifVgG_80SqzOE5BC8gYAVyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021836694284-jkfpqomqr0ucfq3ne12bs7o2kvnm37p4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
