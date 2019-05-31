@@ -86,7 +86,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void abrirTelaPrincipal(){
-        Intent abrirTelaPrincipal = new Intent(LoginActivity.this, MainActivity.class);
+        Intent abrirTelaPrincipal = new Intent(LoginActivity.this, Questionario.class);
         startActivity(abrirTelaPrincipal);
         finish();
     }

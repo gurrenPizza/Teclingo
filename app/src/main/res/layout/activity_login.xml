@@ -9,12 +9,6 @@
     android:background="@color/colorPrimary"
     tools:context=".activities.LoginActivity">
 
-    <ImageView
-        android:layout_width="192dp"
-        android:layout_height="192dp"
-        android:src="@mipmap/ic_lembre_claro"
-        android:layout_marginBottom="30dp"/>
-
     <EditText
         android:id="@+id/edtLoginEmail"
         android:layout_width="match_parent"

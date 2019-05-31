@@ -13,8 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".activities.Questionario"></activity>
         <activity
-            android:name="com.ifrj.pibic.teclingo.activities.LoginActivity"
+            android:name=".activities.LoginActivity"
             android:label="@string/login_label"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -24,33 +25,33 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.ifrj.pibic.teclingo.activities.MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.ifrj.pibic.teclingo.activities.CadastroActivity"
-            android:parentActivityName="com.ifrj.pibic.teclingo.activities.LoginActivity" />
+            android:name=".activities.CadastroActivity"
+            android:parentActivityName=".activities.LoginActivity" />
         <activity
-            android:name="com.ifrj.pibic.teclingo.activities.CadastroBaralhoActivity"
+            android:name=".activities.CadastroBaralhoActivity"
             android:label="Criar um Baralho"
-            android:parentActivityName="com.ifrj.pibic.teclingo.activities.MainActivity"
+            android:parentActivityName=".activities.MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.ifrj.pibic.teclingo.activities.BaralhoActivity"
+            android:name=".activities.BaralhoActivity"
             android:label="Página de Baralho"
-            android:parentActivityName="com.ifrj.pibic.teclingo.activities.MainActivity" />
+            android:parentActivityName=".activities.MainActivity" />
         <activity
-            android:name="com.ifrj.pibic.teclingo.activities.EsqueceuSenhaActivity"
+            android:name=".activities.EsqueceuSenhaActivity"
             android:label="Esqueceu a senha"
-            android:parentActivityName="com.ifrj.pibic.teclingo.activities.LoginActivity" />
+            android:parentActivityName=".activities.LoginActivity" />
         <activity
-            android:name="com.ifrj.pibic.teclingo.activities.BaralhosUsuarioActivity"
-            android:parentActivityName="com.ifrj.pibic.teclingo.activities.MainActivity" />
+            android:name=".activities.BaralhosUsuarioActivity"
+            android:parentActivityName=".activities.MainActivity" />
         <activity
-            android:name="com.ifrj.pibic.teclingo.activities.FeedbackActivity"
-            android:parentActivityName="com.ifrj.pibic.teclingo.activities.MainActivity" />
-        <activity android:name="com.ifrj.pibic.teclingo.activities.PraticarBaralho" />
-        <activity android:name="com.ifrj.pibic.teclingo.activities.CadastroCartasActivity"></activity>
+            android:name=".activities.FeedbackActivity"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity android:name=".activities.PraticarBaralho" />
+        <activity android:name=".activities.CadastroCartasActivity" />
     </application>
 
 </manifest>

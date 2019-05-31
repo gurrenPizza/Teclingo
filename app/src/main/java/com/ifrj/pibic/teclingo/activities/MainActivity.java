@@ -179,16 +179,24 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_baralhos) {
-            Toast.makeText(MainActivity.this, "Essa funcionalidade ainda não está disponível :(", Toast.LENGTH_SHORT).show();
-        } else if (id == R.id.nav_favoritos) {
-            Toast.makeText(MainActivity.this, "Essa funcionalidade ainda não está disponível :(", Toast.LENGTH_SHORT).show();
-        } else if (id == R.id.nav_feedback) {
-            abrirTelaFeedback();
-        } else if (id == R.id.nav_sobre) {
-            abrirTelaSobre();
-        } else if (id == R.id.nav_sair) {
-            abrirTelaLogin();
+        switch (id){
+            case R.id.nav_baralhos:
+                Toast.makeText(MainActivity.this, "Essa funcionalidade ainda não está disponível :(", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.nav_favoritos:
+                Toast.makeText(MainActivity.this, "Essa funcionalidade ainda não está disponível :(", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.nav_feedback:
+                abrirTelaFeedback();
+                break;
+            case R.id.nav_sobre:
+                abrirTelaSobre();
+                break;
+            case R.id.nav_sair:
+                abrirTelaLogin();
+                break;
+            default:
+                break;
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
